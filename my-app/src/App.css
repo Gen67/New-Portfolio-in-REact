@@ -1,0 +1,93 @@
+body{ 
+  margin: 0;
+  background-color: rgb(16, 16, 34);
+  color: whitesmoke;
+}
+
+
+.nav-bar{ 
+  background-color: rgb(12, 17, 29);
+  display: flex;
+  position: sticky;
+  position: fixed;
+  right: 5px;
+  padding-right: 20px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;  
+  margin: 0;
+  height: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.212);
+}
+
+.nav-btn{ 
+  display: flex;
+  gap: 15px;
+}
+.link{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: rgb(15, 52, 153);
+  text-decoration: none;
+  transition: 1s;
+}
+.link:hover{ 
+  font-size: 22px;
+  color: rgb(44, 135, 240);
+}
+
+Button{
+background-color: rgb(15, 15, 32);
+width: 100px;
+height: 30px;
+color: aliceblue;
+font-size: 15px;
+font-weight: 900;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-radius: 5px;
+border: 1px solid rgb(102, 102, 102);
+}
+
+.homepage{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.homeInfo{ 
+  display: inline-flex;
+  flex-direction: row;
+  gap: 50px;
+  background-color: rgb(8, 7, 41);
+  height: 200px;
+  max-height: 250px;
+  max-width: 900px;
+  padding: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border: 5px solid rgba(245, 245, 245, 0.068);
+  border-radius: 20px;
+}
+
+.profilePic{ 
+  border-radius: 10px;
+  border: 1px solid rgb(53, 53, 53);
+  transition: 1s;
+}
+.profilePic:hover{ 
+  transform: scale(1.15);
+}
+
+.icon-area{ 
+  display: flex; 
+  gap: 10px;
+}
+
+
+.icon{ 
+  width: 30px;
+  cursor: pointer;
+}
