@@ -26,9 +26,10 @@ const {user} = useContext(Auth);
                           independently and as part of a team.</p>
 
                           <div className='icon-area'> 
-                            <img src={icon1} alt=""  className='icon'/>
-                            <img src={icon2} alt="" className='icon'/>
-                            <img src={icon3} alt="" className='icon'/>
+                            <a href="https://www.facebook.com" target='blank'><img src={icon1} alt=""  className='icon'/></a>
+                            <a href="https://www.tiktok.com/@guren_senpai" target='blank'><img src={icon2} alt="" className='icon'/></a>
+                            <a href="https://www.instagram.com/michi_senpai/" target='blank'><img src={icon3} alt="" className='icon'/></a>
+                            
                           </div>
                  </div>
       </div> 
