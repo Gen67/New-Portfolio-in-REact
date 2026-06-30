@@ -29,8 +29,9 @@ const {user} = useContext(Auth);
                             <a href="https://www.facebook.com" target='blank'><img src={icon1} alt=""  className='icon'/></a>
                             <a href="https://www.tiktok.com/@guren_senpai" target='blank'><img src={icon2} alt="" className='icon'/></a>
                             <a href="https://www.instagram.com/michi_senpai/" target='blank'><img src={icon3} alt="" className='icon'/></a>
-                            
+                           
                           </div>
+                           <p>My Socials</p>
                  </div>
       </div> 
       
