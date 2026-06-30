@@ -35,9 +35,9 @@ const {user} = useContext(Auth);
                  </div>
       </div> 
       
-      : <div>
+      : <div className='not-loggedIn'>
         <h1>You are not Logged in, Please Login</h1>
-        <Link to={'/login'} className='link'>Login</Link> 
+        <Link to={'/login'}><button>Login</button></Link> 
         </div>}
     
     </div>
@@ -77,8 +77,9 @@ function LoginPage(){
   
   return(
     
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className='login-page'>
+      <div className='form-area'>
+       <form onSubmit={handleSubmit}>
           <h1>Login</h1>
           <input type="text" 
           placeholder='Enter Username' 
@@ -88,6 +89,7 @@ function LoginPage(){
           <button type='submit'>Submit</button>
       </form>
         {user.isAuth && <p>User is Logged in</p>}
+      </div>
     </div>
   )
 }
